@@ -1,15 +1,15 @@
 {
-  "name": "pye-swap-subgrah",
-  "description": "Pye Swap Subgraph",
+  "name": "PYESwap-subgrah",
+  "description": "PYESwap Exchange Subgraph",
   "version": "1.0.0",
-  "repository": "git@github.com:pyeswap/subgraphs.git",
-  "author": "PyeSwap",
+  "repository": "https://github.com/OfficialDevTeamSix/PyeSwap_subgraphs",
+  "author": "PYESwap",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "codegen": "graph codegen subgraph.yaml",
     "build": "graph build subgraph.yaml",
-    "auth": "graph auth --product hosted-service <ACCESS_TOKEN>",
-    "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ pye/swap subgraph.yaml"
+    "auth": "graph auth --product hosted-service 2ee38c8489af4d188ad74db05f466732",
+    "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ officialdevteamsix/pyeswap subgraph.yaml"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",

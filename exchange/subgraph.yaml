@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 description: PyeSwap
-repository: https://github.com/pye/subgraphs
+repository: https://github.com/OfficialDevTeamSix/PyeSwap_subgraphs
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,12 +8,12 @@ dataSources:
     name: Factory
     network: bsc
     source:
-      address: '0x0000000000000000000000000000000000000000'
+      address: '0x40903aB5c9591699BD3d4d312A9e1156b639dc66'
       abi: Factory
-      startBlock: 0
+      startBlock: 15017478
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.6
       language: wasm/assemblyscript
       file: ./mappings/factory.ts
       entities:
@@ -39,7 +39,7 @@ templates:
       abi: Pair
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.6
       language: wasm/assemblyscript
       file: ./mappings/core.ts
       entities:
