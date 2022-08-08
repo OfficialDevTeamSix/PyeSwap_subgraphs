@@ -8,12 +8,12 @@ dataSources:
     name: Factory
     network: bsc
     source:
-      address: '0x96A3CbC01DFe417813258Feb50E2FdF3e2eF55F9'
+      address: '0x130f7f261b086204c565c7c45025cac128a88612'
       abi: Factory
-      startBlock: 15018000
+      startBlock: 19099000
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.6
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       file: ./mappings/factory.ts
       entities:
@@ -39,7 +39,7 @@ templates:
       abi: Pair
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.6
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       file: ./mappings/core.ts
       entities:

@@ -1,7 +1,7 @@
 {
   "name": "PYESwap-subgrah",
   "description": "PYESwap Exchange Subgraph",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "repository": "https://github.com/OfficialDevTeamSix/PyeSwap_subgraphs",
   "author": "PYESwap",
   "license": "GPL-3.0-or-later",
